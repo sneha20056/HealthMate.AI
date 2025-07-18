@@ -1,6 +1,6 @@
 streamlit
 crewai==0.29.9
 python-dotenv
-chromadb==0.4.24
+chromadb==0.4.22
 
 
