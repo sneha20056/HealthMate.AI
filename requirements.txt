@@ -1,6 +1,4 @@
 streamlit
-crewai==0.29.9
 python-dotenv
 chromadb==0.4.22
-
-
+git+https://github.com/joaomdmoura/crewai.git@main
