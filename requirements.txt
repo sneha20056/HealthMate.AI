@@ -1,6 +1,6 @@
 streamlit
 python-dotenv
 chromadb==0.4.22
-git+https://github.com/joaomdmoura/crewai.git@main#egg=crewai
+crewai==0.148.0
 setuptools>=65.5.0
 wheel
