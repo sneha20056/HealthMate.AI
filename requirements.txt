@@ -1,4 +1,6 @@
 streamlit
 crewai
+python-dotenv
+
 
 
