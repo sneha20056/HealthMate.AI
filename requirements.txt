@@ -1,8 +1,6 @@
-
 streamlit
-crewai
+crewai==0.29.9
 python-dotenv
-chromadb>=0.5.23
-
+chromadb==0.4.24
 
 
