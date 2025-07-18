@@ -2,7 +2,7 @@
 streamlit
 crewai
 python-dotenv
-chromadb
+chromadb>=0.5.23
 
 
 
