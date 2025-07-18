@@ -13,7 +13,7 @@ llm = LLM(
 # 1️⃣ Health Advisor
 health_advisor = Agent(
     role="AI Health Advisor",
-    goal="Give initial health advice based on symptoms.",
+    goal="Give initial health advice based on symptoms  in simple language.",
     backstory="You are an experienced AI that offers first-level health advice for common symptoms.",
     allow_delegation=False,
     llm=llm
