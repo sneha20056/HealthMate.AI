@@ -1,9 +1,13 @@
 
 
 import os
+from dotenv import load_dotenv
+load_dotenv()
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
+
 from crewai import LLM, Agent, Crew, Task
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
 llm = LLM(
     model="groq/llama-3.3-70b-versatile",

@@ -1,10 +1,14 @@
 import streamlit as st
 from crewai import LLM, Agent, Crew, Task
 import os
+from dotenv import load_dotenv
+load_dotenv()
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
+
 import random
 
 # 🔑 Secret Key
-os.environ["GROQ_API_KEY"] = "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" 
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
 # 🎨 Page Styling
 st.set_page_config(page_title="HealthMate.AI", page_icon="🩺", layout="wide")
