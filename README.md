@@ -29,12 +29,12 @@ Built using **Python, Streamlit, and Crewai Agents**, and deployed live on Rende
 👉 [Try the app here](https://healthmate-ai-1.onrender.com/)
 
 ---
-
 ## 📷 Screenshots
 
 | Home Screen | Results Screen |
 |-------------|----------------|
-| ![](screenshots/HOME%20SCREEN.png) | ![](screenshots/RESULT%20SCREEN.png) |
+| ![](screenshots/home_screen.png) | ![](screenshots/result_screen.png) |
+
 
 ---
 
