@@ -33,7 +33,7 @@ Built using **Python, Streamlit, and Crewai Agents**, and deployed live on Rende
 
 | Home Screen | Results Screen |
 |-------------|----------------|
-| ![](screenshots/Home_screen.png) | ![](screenshots/result_screen.png) |
+|
 
 
 ---
